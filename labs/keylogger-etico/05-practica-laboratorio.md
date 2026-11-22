@@ -4,9 +4,12 @@
 
 1. VM Windows 11 importada en VirtualBox (ya descargada según `02.jpg`), red **Solo-Anfitrión** o **Interna**, sin Internet.
 2. Snapshot `lab-limpio` tomado tras instalar Sysmon + herramientas (Autoruns, procmon, Process Explorer, Wireshark).
-3. Verificar que el visualizador corre en la VM (nativo Windows, recomendado):
-   `powershell -ExecutionPolicy Bypass -File .\03-demo-visualizador-windows.ps1`
-   (alternativa Python: `python 03-demo-visualizador.py`).
+3. Verificar que el visualizador corre en la VM (nativo Windows, recomendado).
+   Opción A (más simple): doble clic en `Abrir-Demo-Teclado.bat`.
+   Opción B (CMD): `cmd /c Abrir-Demo-Teclado.bat` o
+   `cmd /c powershell -NoProfile -ExecutionPolicy Bypass -File "03-demo-visualizador-windows.ps1"`
+   Opción C (PowerShell directo): `powershell -ExecutionPolicy Bypass -File .\03-demo-visualizador-windows.ps1`
+   Opción D (alternativa Python): `python 03-demo-visualizador.py`
 4. Proyector/pantalla para mostrar el visualizador y las consolas.
 
 ## Bloque A — Teoría relámpago (10 min)

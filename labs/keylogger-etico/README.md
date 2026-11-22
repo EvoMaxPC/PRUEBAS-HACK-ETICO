@@ -22,6 +22,7 @@ Al finalizar el módulo, el/la estudiante podrá:
 |---|---------|-------------|
 | 1 | [01-teoria.md](01-teoria.md) | Qué es un keylogger, taxonomía (software/hardware/firmware), casos de uso legítimos e ilegítimos, marco legal y ético. |
 | 2 | [02-funcionamiento-interno.md](02-funcionamiento-interno.md) | Mecánica interna en Windows a nivel conceptual: APIs implicadas, flujo de datos, persistencia y exfiltración. Mapeo a MITRE ATT&CK. |
+| 3c | [Abrir-Demo-Teclado.bat](Abrir-Demo-Teclado.bat) | **Lanzador para CMD / doble clic**: abre el demo nativo de Windows sin escribir comandos (`cmd.exe` → PowerShell con bypass solo para ese proceso). Recomendado en clase. |
 | 3a | [03-demo-visualizador-windows.ps1](03-demo-visualizador-windows.ps1) | **Demo nativo de Windows** (PowerShell + WinForms): visualiza KeyCode/VK, modificadores y auto-repeat **solo dentro de su ventana**. Sin hooks, sin persistencia, sin red. Recomendado para el lab (VM ya es Windows 11). |
 | 3b | [03-demo-visualizador.py](03-demo-visualizador.py) | Alternativa multiplataforma (Python + Tkinter), mismos límites y propósito. |
 | 4 | [04-deteccion-y-prevencion.md](04-deteccion-y-prevencion.md) | Guía defensiva: Sysmon, reglas de detección conceptuales, IoCs, hardening de Windows, MFA, control de apps y USB. |
